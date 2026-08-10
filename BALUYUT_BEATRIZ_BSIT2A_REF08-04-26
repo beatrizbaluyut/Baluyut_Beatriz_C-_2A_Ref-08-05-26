@@ -1,0 +1,35 @@
+class profile:
+    
+    name = "Bea B."
+    age = 18           
+    height = 4.11 
+    color = "Green"
+    
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"height: {height}")
+    print(f"fav color: {color}")
+
+print("-" * 1)
+
+class Profile:
+    def introduce(self):
+        
+        name = ('Bea B.')
+        age = ('18')      
+        height = ('4.11')
+        favcolor = ('Green')
+        print('My name is ' + name + '. I am ' + age + '. My height is ' + height + 'cm, and My favorite color is ' + favcolor + '.')
+p = Profile()
+p.introduce()
+
+class Profile:
+    def introduce(self):
+        
+        name = input('Bea B.')
+        age = input('18')      
+        height = input('4.11')
+        favcolor = input('Green')
+        print('My name is ' + name + '. I am ' + age + '. My height is ' + height + 'cm, and My favorite color is ' + favcolor + '.')
+p = Profile()
+p.introduce()
